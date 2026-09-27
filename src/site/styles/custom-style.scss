@@ -1,8 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
 body {
-  --dg-filetree-width: clamp(250px, 20vw, 500px);
-  --dg-filetree-max-width: clamp(250px, 20vw, 500px);
-  --dg-filetree-gap: clamp(50px, 3vw, 200px);
-  --dg-content-max-width: clamp(800px, 75vw, 1600px);
+  --dg-filetree-width: clamp(250px, 15vw, 500px);
+  --dg-filetree-max-width: clamp(250px, 15vw, 500px);
+  --dg-filetree-gap: clamp(50px, 2vw, 200px);
+  --dg-content-max-width: clamp(800px, 70vw, 1600px);
+  --dg-sidebar-max-width: clamp(250px, 15vw, 500px);
 }
 
