@@ -11,12 +11,12 @@ Nota de inicio de la asignatura.
 
 ## Temario
 
-- [[Sistemas Informáticos/01_Temario/Tema 00 - Sistemas de numeración/Tema 00 - Sistemas de numeración\|Tema 00 - Sistemas de numeración]]
+- [[Sistemas Informáticos/Unidades/Ud 0: Sistemas de numeración/Tema 00 - Sistemas de numeración\|Tema 00 - Sistemas de numeración]]
 
 ## Prácticas
 
-- [[Sistemas Informáticos/02_Prácticas/00_Actividades del temario.md\|Actividades del temario]]
-- [[Sistemas Informáticos/02_Prácticas/01_Cambios_de_base.md\|Cambios de base]]
+- [[Sistemas Informáticos/Prácticas/00_Actividades del temario.md\|Actividades del temario]]
+- [[Sistemas Informáticos/Prácticas/01_Cambios_de_base.md\|Cambios de base]]
 
 ## Material original
 
