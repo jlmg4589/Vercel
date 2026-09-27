@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/apuntes/sistemas-informaticos/02-practicas/01-cambios-de-base-md/","title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"dg-note-properties":{"title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","materia":"Sistemas Informáticos","ciclo":"Formación Profesional","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"status":"En progreso"}}
+{"dg-publish":true,"permalink":"/apuntes/sistemas-informaticos/02-practicas/01-cambios-de-base-md/","title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"noteIcon":"","created":"2026-09-27T13:23:21.601+02:00","updated":"2026-09-27T13:23:21.601+02:00","dg-note-properties":{"title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","materia":"Sistemas Informáticos","ciclo":"Formación Profesional","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"status":"En progreso"}}
 ---
 
 

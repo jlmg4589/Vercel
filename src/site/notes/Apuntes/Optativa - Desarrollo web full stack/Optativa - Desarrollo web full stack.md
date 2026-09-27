@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/apuntes/optativa-desarrollo-web-full-stack/optativa-desarrollo-web-full-stack/","tags":["asignatura/desarrollo-web-full-stack","moc"],"dg-note-properties":{"tipo":"índice","asignatura":"Optativa - Desarrollo web full stack","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["asignatura/desarrollo-web-full-stack","moc"]}}
+{"dg-publish":true,"permalink":"/apuntes/optativa-desarrollo-web-full-stack/optativa-desarrollo-web-full-stack/","tags":["asignatura/desarrollo-web-full-stack","moc"],"noteIcon":"","created":"2026-09-27T13:23:21.672+02:00","updated":"2026-09-27T13:23:21.672+02:00","dg-note-properties":{"tipo":"índice","asignatura":"Optativa - Desarrollo web full stack","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["asignatura/desarrollo-web-full-stack","moc"]}}
 ---
 
 

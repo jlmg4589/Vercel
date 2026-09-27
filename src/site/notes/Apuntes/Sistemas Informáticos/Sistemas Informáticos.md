@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/apuntes/sistemas-informaticos/sistemas-informaticos/","tags":["asignatura/sistemas-informaticos","moc"],"dg-note-properties":{"tipo":"índice","asignatura":"Sistemas Informáticos","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["asignatura/sistemas-informaticos","moc"]}}
+{"dg-publish":true,"permalink":"/apuntes/sistemas-informaticos/sistemas-informaticos/","tags":["asignatura/sistemas-informaticos","moc"],"noteIcon":"","created":"2026-09-27T13:23:27.507+02:00","updated":"2026-09-27T13:23:27.507+02:00","dg-note-properties":{"tipo":"índice","asignatura":"Sistemas Informáticos","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["asignatura/sistemas-informaticos","moc"]}}
 ---
 
 
