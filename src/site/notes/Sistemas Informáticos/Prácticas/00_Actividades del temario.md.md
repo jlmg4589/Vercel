@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sistemas-informaticos/practicas/00-actividades-del-temario-md/","noteIcon":"","created":"2026-09-27T13:23:21.606+02:00","updated":"2026-09-27T13:23:21.605+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/sistemas-informaticos/practicas/00-actividades-del-temario-md/","noteIcon":"","dg-note-properties":{}}
 ---
 
 

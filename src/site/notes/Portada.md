@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/portada/","tags":["portada","moc","gardenEntry"],"noteIcon":"","created":"2026-09-27T13:12:46.572+02:00","updated":"2026-09-27T13:14:25.613+02:00","dg-note-properties":{"tipo":"portada","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["portada","moc","gardenEntry"],"cssclasses":["portada"]}}
+{"dg-publish":true,"permalink":"/portada/","tags":["portada","moc","gardenEntry"],"noteIcon":"","dg-note-properties":{"tipo":"portada","autor":"José Luis Martínez García","licencia":"CC BY-NC-SA 4.0","tags":["portada","moc","gardenEntry"],"cssclasses":["portada"]}}
 ---
 
 

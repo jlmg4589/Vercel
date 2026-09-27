@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/optativa-desarrollo-web-full-stack/03-recursos/codificacion-cifrado-integridad-md/","noteIcon":"","created":"2026-09-27T13:23:21.669+02:00","updated":"2026-09-27T13:23:21.668+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/optativa-desarrollo-web-full-stack/03-recursos/codificacion-cifrado-integridad-md/","noteIcon":"","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/optativa-desarrollo-web-full-stack/apuntes/tema-00-repaso/a-1-control-de-versiones-con-git/","title":"1.1 Control de versiones con Git","tags":["clippings"],"noteIcon":"","created":"2026-09-27T13:23:21.676+02:00","updated":"2026-09-27T13:23:21.676+02:00","dg-note-properties":{"title":"1.1 Control de versiones con Git","source":"https://iescelia.org/docs/dwes/_site/git/","author":null,"published":null,"created":"2026-09-22","description":"Apuntes del módulo de “Desarrollo web en entorno servidor”, de 2º curso del Ciclo Formativo de Grado Superior de “Desarrollo de Aplicaciones Web”, impartido en el IES Celia Viñas de Almería (España)","tags":["clippings"]}}
+{"dg-publish":true,"permalink":"/optativa-desarrollo-web-full-stack/apuntes/tema-00-repaso/a-1-control-de-versiones-con-git/","title":"1.1 Control de versiones con Git","tags":["clippings"],"noteIcon":"","dg-note-properties":{"title":"1.1 Control de versiones con Git","source":"https://iescelia.org/docs/dwes/_site/git/","author":null,"published":null,"created":"2026-09-22","description":"Apuntes del módulo de “Desarrollo web en entorno servidor”, de 2º curso del Ciclo Formativo de Grado Superior de “Desarrollo de Aplicaciones Web”, impartido en el IES Celia Viñas de Almería (España)","tags":["clippings"]}}
 ---
 
 ## 1.1. Control de versiones con Git

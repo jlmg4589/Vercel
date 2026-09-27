@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sistemas-informaticos/apuntes/ud-0-sistemas-de-numeracion/fe-de-erratas-tema-00/","tags":["asignatura/sistemas-informaticos","tema/00","erratas"],"noteIcon":"","created":"2026-09-27T13:23:21.645+02:00","updated":"2026-09-27T13:23:21.645+02:00","dg-note-properties":{"tipo":"erratas","asignatura":"Sistemas Informáticos","tema":0,"fuente":"[[Sistemas de numeración.pdf]]","tags":["asignatura/sistemas-informaticos","tema/00","erratas"]}}
+{"dg-publish":true,"permalink":"/sistemas-informaticos/apuntes/ud-0-sistemas-de-numeracion/fe-de-erratas-tema-00/","tags":["asignatura/sistemas-informaticos","tema/00","erratas"],"noteIcon":"","dg-note-properties":{"tipo":"erratas","asignatura":"Sistemas Informáticos","tema":0,"fuente":"[[Sistemas de numeración.pdf]]","tags":["asignatura/sistemas-informaticos","tema/00","erratas"]}}
 ---
 
 
