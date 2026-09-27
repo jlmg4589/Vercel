@@ -2,9 +2,10 @@
 
 body {
   /* Ancho de la barra derecha (TOC/grafo/backlinks) */
-  --dg-sidebar-max-width: 15vw;
+  --dg-sidebar-max-width: 18vw;
   --dg-sidebar-min-width: 200px;
-  --dg-sidebar-gap: 2vw;
+  --dg-sidebar-gap: 4vw; /* más separación para que no se pise con el texto */
+
 }
 
 /* Barra izquierda (filetree) al 20% */
@@ -23,9 +24,4 @@ main.content {
   width: 60% !important;
   max-width: 60% !important;
   margin-right: 5% !important;
-}
-
-body {
-  --dg-sidebar-max-width: 18vw;
-  --dg-sidebar-gap: 4vw; /* más separación para que no se pise con el texto */
 }
