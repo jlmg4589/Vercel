@@ -1,7 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
 body {
-  --dg-filetree-width: 400px;
-  --dg-filetree-max-width: 400px;
-  --dg-filetree-gap: 100px;
+  --dg-filetree-width: clamp(200px, 17vw, 400px);
+  --dg-filetree-max-width: clamp(200px, 17vw, 400px);
+  --dg-filetree-gap: clamp(50px, 2vw, 200px);
+  --dg-content-max-width: clamp(800px, 80vw, 1600px);
+
 }
 
