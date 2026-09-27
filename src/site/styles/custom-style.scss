@@ -1,10 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
 body {
-  --dg-filetree-width: 25vw;
-  --text-overflow: ellipsis;
-  --dg-filetree-padding: 10px 20px;
-  --dg-filetree-max-width: 25vw;
-  --dg-content-max-width: 57vw;
-  --dg-sidebar-max-width: 18vw;
+
+  --dg-filetree-width: 300px !important;
+  --dg-filetree-max-width: 300px !important;
+  --dg-filetree-gap: 50px !important;
+
 }
 
