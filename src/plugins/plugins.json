@@ -2,10 +2,10 @@
   "version": 1,
   "plugins": {
     "dg-link-preview": {
-      "order": 10
+      "order": 20
     },
     "dg-filetree": {
-      "order": 20
+      "order": 10
     },
     "dg-math": {
       "order": 30
