@@ -20,6 +20,12 @@ body {
 
 /* Contenido principal al 65% aprox */
 main.content {
-  width: 65% !important;
-  max-width: 65% !important;
+  width: 60% !important;
+  max-width: 60% !important;
+  margin-right: 5% !important;
+}
+
+body {
+  --dg-sidebar-max-width: 18vw;
+  --dg-sidebar-gap: 4vw; /* más separación para que no se pise con el texto */
 }
