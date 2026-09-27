@@ -19,9 +19,9 @@
 
 | Asignatura | Nota de inicio |
 | --- | --- |
-| Sistemas Informáticos | [[Apuntes/Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]] |
-| Bastionado de redes y sistemas | [[Apuntes/Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]] |
-| Optativa - Desarrollo web full stack | [[Apuntes/Optativa - Desarrollo web full stack/Optativa - Desarrollo web full stack\|Optativa - Desarrollo web full stack]] |
+| Sistemas Informáticos | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]] |
+| Bastionado de redes y sistemas | [[Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]] |
+| Optativa - Desarrollo web full stack | [[Optativa - Desarrollo web full stack/Optativa - Desarrollo web full stack\|Optativa - Desarrollo web full stack]] |
 
 > [!tip] Cómo añadir una asignatura nueva
 > 1. Crea una carpeta en `Apuntes/` con el nombre de la asignatura y las subcarpetas `00_General`, `01_Temario`, `02_Prácticas` y `03_Recursos`.
