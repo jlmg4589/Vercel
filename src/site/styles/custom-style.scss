@@ -1,10 +1,14 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
 
 body {
-    --dg-filetree-width: 350px !important;
-    --dg-filetree-max-width: 350px !important;
-    --dg-filetree-gap: 10px !important;
+    --dg-filetree-width: 300px !important;
+    --dg-filetree-min-width: 0px !important;
+    --dg-filetree-gap: 20px !important;
+    --dg-filetree-padding: 10px 20px !important;
 }
-.dg-filetree {
-    margin-left: -300px !important;
+
+/* Reducir y desplazar el panel lateral */
+#filetree {
+    width: 400px !important;
+    min-width: 400px !important;
 }
