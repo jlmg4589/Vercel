@@ -10,9 +10,9 @@
 ## Temario
 
 ### Tema 00 - Repaso
-- [[Optativa - Desarrollo web full stack/01_Temario/Tema_00_Repaso/Apéndice 1. Sistemas de control de versiones. Git\|Apéndice 1. Sistemas de control de versiones. Git]]
-- [[Optativa - Desarrollo web full stack/01_Temario/Tema_00_Repaso/📄 A.1 Control de versiones con Git\|A.1 Control de versiones con Git]]
-- [[Optativa - Desarrollo web full stack/01_Temario/Tema_00_Repaso/Apéndice 2. Virtualización con Docker\|Apéndice 2. Virtualización con Docker]]
+- [[Optativa - Desarrollo web full stack/Apuntes/Tema_00_Repaso/Apéndice 1. Sistemas de control de versiones. Git\|Apéndice 1. Sistemas de control de versiones. Git]]
+- [[Optativa - Desarrollo web full stack/Apuntes/Tema_00_Repaso/📄 A.1 Control de versiones con Git\|A.1 Control de versiones con Git]]
+- [[Optativa - Desarrollo web full stack/Apuntes/Tema_00_Repaso/Apéndice 2. Virtualización con Docker\|Apéndice 2. Virtualización con Docker]]
 
 ## Recursos
 

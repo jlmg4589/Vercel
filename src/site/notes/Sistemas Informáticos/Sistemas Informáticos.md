@@ -11,7 +11,7 @@ Nota de inicio de la asignatura.
 
 ## Temario
 
-- [[Sistemas Informáticos/Unidades/Ud 0: Sistemas de numeración/Tema 00 - Sistemas de numeración\|Tema 00 - Sistemas de numeración]]
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/Tema 00 - Sistemas de numeración\|Tema 00 - Sistemas de numeración]]
 
 ## Prácticas
 
