@@ -1,29 +1,2 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
 
-/* Barra izquierda (filetree) ≈20% */
-.filetree-wrapper {
-  flex: 0 0 20% !important;
-  max-width: 20% !important;
-}
-.filetree-sidebar {
-  width: 100% !important;
-}
-
-/* Contenido principal ≈65% */
-main.content {
-  flex: 1 1 60% !important;
-  max-width: 65% !important;
-  width: auto !important;
-  margin-right: 0 !important;
-}
-
-/* Barra derecha (grafo/backlinks) ≈15% */
-aside {
-  flex: 0 0 15% !important;
-  max-width: 15% !important;
-}
-aside .sidebar,
-#page-panel {
-  width: 100% !important;
-  max-width: 100% !important;
-}
