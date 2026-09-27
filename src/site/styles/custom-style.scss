@@ -1,39 +1,38 @@
 @import "https://cdn.jsdelivr.net/npm/obsidian-things@latest/theme.css";
-/* Ajusta las variables CSS del layout para expandir el sitio al borde izquierdo */
+
+/* 1. Control del ancho en variables globales */
 :root {
-  --filetree-width: 350px;
+  --filetree-width: 280px !important;
   --dg-content-max-width: 100% !important;
 }
 
-/* Fuerza el árbol de archivos al borde izquierdo de la pantalla */
-.filetree-sidebar {
+/* 2. Ajuste del recuadro gris y la barra lateral */
+.sidebar-left,
+.filetree-sidebar,
+.filetree-sidebar-wrapper,
+aside.sidebar {
   position: fixed !important;
   left: 0 !important;
   top: 0 !important;
+  width: 280px !important;
+  max-width: 280px !important;
+  min-width: 280px !important;
   height: 100vh !important;
   margin: 0 !important;
+  padding-right: 10px !important;
+  box-sizing: border-box !important;
   z-index: 100;
 }
 
-/* Desplaza el contenido principal a la derecha para que no tapar texto */
-.content {
-  margin-left: 400px !important;
-}
-
-
-
-/* Ajusta el fondo gris al ancho exacto del contenido de la lista */
-.filetree-sidebar, 
-aside.sidebar {
-  width: fit-content !important;
-  max-width: 300px !important;
-  padding-right: 15px !important;
-  box-sizing: border-box !important;
-}
-
-/* Evita que los nombres largos de las notas expandan el contenedor de forma infinita */
+/* 3. Recorte de textos largos para que no desborden */
 .filetree-sidebar * {
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
+}
+
+/* 4. Pegar el contenido justo después del recuadro gris */
+.content,
+main.content {
+  margin-left: 295px !important;
 }
