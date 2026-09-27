@@ -19,3 +19,21 @@
 .content {
   margin-left: 400px !important;
 }
+
+
+
+/* Ajusta el fondo gris al ancho exacto del contenido de la lista */
+.filetree-sidebar, 
+aside.sidebar {
+  width: fit-content !important;
+  max-width: 300px !important;
+  padding-right: 15px !important;
+  box-sizing: border-box !important;
+}
+
+/* Evita que los nombres largos de las notas expandan el contenedor de forma infinita */
+.filetree-sidebar * {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
