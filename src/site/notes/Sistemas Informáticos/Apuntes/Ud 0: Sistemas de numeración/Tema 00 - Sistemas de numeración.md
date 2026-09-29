@@ -5,12 +5,12 @@
 
 # Tema 00 - Sistemas de numeración
 
-Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos\|Sistemas Informáticos]].
+Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]].
 
 ## 1. Representación de la información
 
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.0 Representación de la información\|1.0 Representación de la información]]
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.1 Tipos de datos\|1.1 Tipos de datos]]
+- [[Sistemas Informáticos/Apuntes/1.0 Representación de la información\|1.0 Representación de la información]]
+- [[Sistemas Informáticos/Apuntes/1.1 Tipos de datos\|1.1 Tipos de datos]]
 - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.2 Sistemas de numeración\|1.2 Sistemas de numeración]] — posicionales, TFN, binario, octal y hexadecimal
 - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.3 Cambios de base\|1.3 Cambios de base]]
 - 1.4 Operaciones en binario
