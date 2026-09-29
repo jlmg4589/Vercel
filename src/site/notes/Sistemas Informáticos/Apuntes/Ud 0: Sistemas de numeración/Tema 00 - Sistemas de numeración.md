@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sistemas-informaticos/apuntes/ud-0-sistemas-de-numeracion/tema-00-sistemas-de-numeracion/","tags":["asignatura/sistemas-informaticos","tema/00","moc"],"noteIcon":"","dg-note-properties":{"tipo":"moc","asignatura":"Sistemas Informáticos","tema":0,"estado":"pendiente","fuente":"[[Sistemas de numeración.pdf]]","tags":["asignatura/sistemas-informaticos","tema/00","moc"]}}
+{"dg-publish":true,"dg-path":" Sistemas de numeración/1. Representación de la información: Sistemas de numeración/Tema 00 - Sistemas de numeración.md","permalink":"/sistemas-de-numeracion/1-representacion-de-la-informacion-sistemas-de-numeracion/tema-00-sistemas-de-numeracion/","tags":["asignatura/sistemas-informaticos","tema/00","moc"],"noteIcon":"","dg-note-properties":{"tipo":"moc","asignatura":"Sistemas Informáticos","tema":0,"estado":"pendiente","fuente":"[[Sistemas de numeración.pdf]]","tags":["asignatura/sistemas-informaticos","tema/00","moc"]}}
 ---
 
 
