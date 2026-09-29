@@ -14,13 +14,12 @@
 </div>
 
 ---
-
 ## Asignaturas
 
-| Asignatura | Nota de inicio |
-| --- | --- |
-| Sistemas Informáticos | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]] |
-| Bastionado de redes y sistemas | [[Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]] |
+| Asignatura                           | Nota de inicio                           |
+| ------------------------------------ | ---------------------------------------- |
+| Sistemas Informáticos                | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]]                |
+| Bastionado de redes y sistemas       | [[Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]]       |
 | Optativa - Desarrollo web full stack | [[Optativa - Desarrollo web full stack/Optativa - Desarrollo web full stack\|Optativa - Desarrollo web full stack]] |
 
 > [!tip] Cómo añadir una asignatura nueva
