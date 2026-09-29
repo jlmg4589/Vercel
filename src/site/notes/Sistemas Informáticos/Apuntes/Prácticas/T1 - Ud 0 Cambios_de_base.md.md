@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/sistemas-informaticos/practicas/t1-ud-0-cambios-de-base-md/","title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"noteIcon":"","dg-note-properties":{"title":"Práctica de Repaso: Sistemas de Numeración y Conversión de Bases","materia":"Sistemas Informáticos","ciclo":"Formación Profesional","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"status":"En progreso"}}
+{"dg-publish":true,"permalink":"/sistemas-informaticos/apuntes/practicas/t1-ud-0-cambios-de-base-md/","title":"Cambios de base","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"noteIcon":"","dg-note-properties":{"title":"Cambios de base","materia":"Sistemas Informáticos","ciclo":"Formación Profesional","tags":["sistemas-informaticos","conversiones","ejercicios","binario","octal","hexadecimal","tfn"],"status":"En progreso"}}
 ---
 
 ---
 
 📝 Práctica de Repaso: Sistemas de Numeración
 
-> [!info] Objetivos de la Práctica
+> [!note] Objetivos de la Práctica
 > Dominar la conversión de cualquier base a decimal aplicando el Teorema Fundamental de la Numeración (TFN).
 > Manejar la conversión directa entre bases $8$ y $16$ utilizando el sistema binario como paso intermedio mediante agrupación de bits.
 
@@ -88,3 +88,7 @@ Realiza los cambios de base pasando primero a binario (agrupando en bloques de 3
 18. $(5C)_{16}$: <span style="color: white;">$(5C)_{16} = 0101\ 1100_2 = 001\ 011\ 100_2 = (134)_8$</span>
 19. $(A1B)_{16}$: <span style="color: white;">$(A1B)_{16} = 1010\ 0001\ 1011_2 = 101\ 000\ 011\ 011_2 = (5033)_8$</span>
 20. $(E4)_{16}$: <span style="color: white;">$(E4)_{16} = 1110\ 0100_2 = 011\ 100\ 100_2 = (344)_8$</span>
+
+
+> [!info] Soluciones
+> Las soluciones de cada apartado están escritas en blanco a continuación de cada ejercicio, si desea comprobar su solución, solo tiene que sombrearla o copiarla y pegarla en un editor.
