@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# 📚 Material didáctico sobre informática
+# 📚 Material didáctico sobre informática by JL
 
 **José Luis Martínez García**
 
