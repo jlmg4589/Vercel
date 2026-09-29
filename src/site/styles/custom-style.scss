@@ -12,3 +12,6 @@
   overflow-x: auto !important;
   overflow-y: hidden !important;
 }
+.callout {
+  background-color: rgba(var(--callout-color), 0.1) !important;
+}
