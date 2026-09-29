@@ -8,6 +8,7 @@
 .filetree-sidebar {
   width: 100% !important;
 }
-.callout {
-  border-left: none !important;
+.callout-content {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
 }
