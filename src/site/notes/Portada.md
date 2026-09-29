@@ -19,18 +19,6 @@
 | Asignatura                           | Nota de inicio                           |
 | ------------------------------------ | ---------------------------------------- |
 | Sistemas Informáticos                | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]]                |
-| Bastionado de redes y sistemas       | [[Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]]       |
-| Optativa - Desarrollo web full stack | [[Optativa - Desarrollo web full stack/Optativa - Desarrollo web full stack\|Optativa - Desarrollo web full stack]] |
-
-> [!tip] Cómo añadir una asignatura nueva
-> 1. Crea una carpeta en `Apuntes/` con el nombre de la asignatura y las subcarpetas `00_General`, `01_Temario`, `02_Prácticas` y `03_Recursos`.
-> 2. Dentro, crea una nota de inicio con el mismo nombre que la carpeta.
-> 3. Añade una fila a la tabla de arriba.
-
-## Organización de la bóveda
-
-- **Apuntes/** → una carpeta por asignatura, cada una con su nota de inicio y un índice (MOC) por tema.
-- **Clippings/** → recortes web pendientes de procesar.
 
 ---
 
