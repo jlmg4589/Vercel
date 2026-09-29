@@ -9,23 +9,23 @@ Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos\|Sistemas I
 
 ## 1. Representación de la información
 
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.0 Representación de la información\|1.0 Representación de la información]]
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.1 Tipos de datos\|1.1 Tipos de datos]]
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.2 Sistemas de numeración\|1.2 Sistemas de numeración]] — posicionales, TFN, binario, octal y hexadecimal
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.3 Cambios de base\|1.3 Cambios de base]]
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.0 Representación de la información\|1.0 Representación de la información]]
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.1 Tipos de datos\|1.1 Tipos de datos]]
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.2 Sistemas de numeración\|1.2 Sistemas de numeración]] — posicionales, TFN, binario, octal y hexadecimal
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.3 Cambios de base\|1.3 Cambios de base]]
 - 1.4 Operaciones en binario
-  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.4.1 Operaciones aritméticas\|1.4.1 Operaciones aritméticas]] — suma y resta
-  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.4.2 Operaciones lógicas\|1.4.2 Operaciones lógicas]] — NOT, OR, AND, XOR, NAND, NOR
-  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.4.3 Complementos\|1.4.3 Complementos]] — C1, C2 y resta con complementos
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1. Representación de la información/1.5 Detección de errores\|1.5 Detección de errores]] — paridad lineal, bidimensional y CRC
+  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.4.1 Operaciones aritméticas\|1.4.1 Operaciones aritméticas]] — suma y resta
+  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.4.2 Operaciones lógicas\|1.4.2 Operaciones lógicas]] — NOT, OR, AND, XOR, NAND, NOR
+  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.4.3 Complementos\|1.4.3 Complementos]] — C1, C2 y resta con complementos
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/1.5 Detección de errores\|1.5 Detección de errores]] — paridad lineal, bidimensional y CRC
 
 ## 2. Codificación de la información
 
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2. Codificación de la información/2.0 Codificación de la información\|2.0 Codificación de la información]] — códigos de longitud fija y variable
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2. Codificación de la información/2.1 Almacenamiento de la información\|2.1 Almacenamiento de la información]] — bit, nibble, byte y múltiplos (SI / IEC)
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2.0 Codificación de la información\|2.0 Codificación de la información]] — códigos de longitud fija y variable
+- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2.1 Almacenamiento de la información\|2.1 Almacenamiento de la información]] — bit, nibble, byte y múltiplos (SI / IEC)
 - 2.2 Codificación numérica
-  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2. Codificación de la información/2.2.1 Números enteros\|2.2.1 Números enteros]] — BCD, decimal empaquetado/desempaquetado, signo-magnitud
-  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2. Codificación de la información/2.2.2 Números con decimales\|2.2.2 Números con decimales]] — coma flotante IEEE 754
+  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2.2.1 Números enteros\|2.2.1 Números enteros]] — BCD, decimal empaquetado/desempaquetado, signo-magnitud
+  - [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/2.2.2 Números con decimales\|2.2.2 Números con decimales]] — coma flotante IEEE 754
 
 ## Fórmulas clave
 
