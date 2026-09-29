@@ -5,7 +5,7 @@
 
 # Tema 00 - Sistemas de numeración
 
-Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]].
+Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos\|Sistemas Informáticos]].
 
 ## 1. Representación de la información
 
@@ -32,7 +32,3 @@ Mapa de contenidos (MOC) del tema. Volver a [[Sistemas Informáticos/Sistemas In
 - Teorema fundamental de la numeración: $N = \sum_{i=-j}^{k-1} X_i \cdot B^i$
 - Complemento a 2: $C_2 = C_1 + 1$
 - Sesgo del exponente IEEE 754: $2^{n-1}-1$ (127 en simple, 1023 en doble precisión)
-
-## Correcciones
-
-- [[Sistemas Informáticos/Apuntes/Ud 0: Sistemas de numeración/Fe de erratas - Tema 00\|Fe de erratas - Tema 00]] — errores detectados en las diapositivas y cómo se han corregido.

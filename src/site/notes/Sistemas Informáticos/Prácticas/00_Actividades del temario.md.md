@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/sistemas-informaticos/practicas/00-actividades-del-temario-md/","noteIcon":"","dg-note-properties":{}}
 ---
 
-
 # Actividades
 
 ## <u>Actividad 1</u>
