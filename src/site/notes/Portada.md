@@ -5,9 +5,7 @@
 
 <div align="center">
 
-# 📚 Material didáctico
-
-### Apuntes de mis asignaturas
+# 📚 Material didáctico sobre informática
 
 **José Luis Martínez García**
 
