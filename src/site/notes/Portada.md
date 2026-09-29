@@ -14,9 +14,9 @@
 ---
 ## Asignaturas
 
-| Asignatura                           | Nota de inicio                           |
-| ------------------------------------ | ---------------------------------------- |
-| Sistemas Informáticos                | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]]                |
+| Asignatura            | Nota de inicio            |
+| --------------------- | ------------------------- |
+| Sistemas Informáticos | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]] |
 
 ---
 
