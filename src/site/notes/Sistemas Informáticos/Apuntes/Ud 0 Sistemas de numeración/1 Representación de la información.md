@@ -99,3 +99,446 @@ Utiliza 16 símbolos: los números del 0 al 9 y las seis primeras letras del abe
 | 13 | D | 1101 |
 | 14 | E | 1110 |
 | 15 | F | 1111 |
+
+## 1.3 Cambios de base
+
+### Binario → decimal
+
+Se aplica el [[1.2 Sistemas de numeración#Teorema fundamental de la numeración (TFN)\|TFN]]: se multiplica cada dígito por la potencia de 2 correspondiente a su posición y se suma todo.
+
+- $11011_2 = 1\cdot2^0 + 1\cdot2^1 + 0\cdot2^2 + 1\cdot2^3 + 1\cdot2^4 = 1+2+8+16 = 27_{10}$
+- $11{,}011_2 = 1\cdot2^{-3} + 1\cdot2^{-2} + 0\cdot2^{-1} + 1\cdot2^0 + 1\cdot2^1 = 0{,}125+0{,}25+0+1+2 = 3{,}375_{10}$
+- $11101_2 = 1\cdot2^0 + 0\cdot2^1 + 1\cdot2^2 + 1\cdot2^3 + 1\cdot2^4 = 1+0+4+8+16 = 29_{10}$
+
+### Decimal → binario
+
+- **Parte entera:** se divide sucesivamente entre 2 hasta que el **cociente** sea menor que 2. El número se forma con el último cociente seguido de todos los restos en orden inverso.
+- **Parte fraccionaria:** se multiplica por 2; la parte entera obtenida (0 o 1) es el siguiente bit y se descarta para la siguiente multiplicación. Se repite hasta que la parte fraccionaria sea 0 (o hasta tener la precisión deseada).
+
+> [!example] Ejemplo: $32{,}375_{10}$
+> **Parte entera:** $32:2=16$ r 0 → $16:2=8$ r 0 → $8:2=4$ r 0 → $4:2=2$ r 0 → $2:2=1$ r 0 → $32_{10} = 100000_2$
+>
+> **Parte fraccionaria:**
+> - $0{,}375\cdot2 = 0{,}75$ → bit 0
+> - $0{,}75\cdot2 = 1{,}5$ → bit 1 (se elimina la parte entera)
+> - $0{,}5\cdot2 = 1{,}0$ → bit 1
+>
+> $0{,}375_{10} = 0{,}011_2$ → **$32{,}375_{10} = 100000{,}011_2$**
+
+### Binario ↔ octal
+
+Cada dígito octal equivale a un grupo de **3 bits**.
+
+**Octal → binario**
+- $1342_8 = 001\ 011\ 100\ 010_2$
+- $34{,}03_8 = 011\ 100{,}000\ 011_2$
+
+**Binario → octal**
+- $11011101_2 = 011\ 011\ 101 = 335_8$
+- $10001{,}1001_2 = 010\ 001{,}100\ 100 = 21{,}44_8$
+
+> [!note] Cómo agrupar
+> Se toman los bits en grupos de 3 **desde la coma hacia la izquierda** para la parte entera y **desde la coma hacia la derecha** para la fraccionaria. Si faltan bits para completar un grupo, se añaden ceros donde no alteren el valor: a la izquierda en la parte entera y a la derecha en la fraccionaria.
+
+### Binario ↔ hexadecimal
+
+Cada dígito hexadecimal equivale a un grupo de **4 bits** (mismas reglas de agrupación, con grupos de 4).
+
+**Hexadecimal → binario**
+- $3AF_{16} = 0011\ 1010\ 1111_2$
+- $F0{,}0C_{16} = 1111\ 0000{,}0000\ 1100_2$
+
+**Binario → hexadecimal**
+- $110110010_2 = 0001\ 1011\ 0010 = 1B2_{16}$
+- $101011{,}010001_2 = 0010\ 1011{,}0100\ 0100 = 2B{,}44_{16}$
+
+### Octal ↔ decimal
+
+**Octal → decimal (TFN):** se multiplica cada dígito por la potencia de 8 correspondiente y se suma.
+
+- $35_8 = 3\cdot8^1 + 5\cdot8^0 = 29_{10}$
+
+**Decimal → octal:** divisiones sucesivas entre 8 hasta que el cociente sea menor que 8; se toma el último cociente y los restos en orden inverso.
+
+- $29 : 8 = 3$ resto $5$ → $29_{10} = 35_8$ (el resto 5 es el dígito menos significativo, LSD; el cociente 3 el más significativo, MSD)
+
+### Hexadecimal → decimal
+
+Se aplica el TFN con potencias de 16, sustituyendo cada letra por su valor decimal.
+
+$$F12A4_{16} = 15\cdot16^4 + 1\cdot16^3 + 2\cdot16^2 + 10\cdot16^1 + 4\cdot16^0$$
+$$= 983040 + 4096 + 512 + 160 + 4 = 987812_{10}$$
+
+### Decimal → hexadecimal
+
+Se divide sucesivamente entre 16 hasta que el cociente sea menor que 16. Después se sustituye cada resto y el último cociente por su símbolo hexadecimal y se colocan de derecha a izquierda (el primer resto es el dígito menos significativo).
+
+- **Ejemplo 1:** $29 : 16 = 1$ resto $13\,(D)$ → $29_{10} = 1D_{16}$
+- **Ejemplo 2:** $1972 : 16 = 123$ resto $4$; $123 : 16 = 7$ resto $11\,(B)$ → $1972_{10} = 7B4_{16}$
+
+
+### 1.4 Operaciones en binario
+
+← [[1.3 Cambios de base\|1.3 Cambios de base]] · ↑ [[Sistemas de numeración\|Sistemas de numeración]] · → [[1.4.2 Operaciones lógicas\|1.4.2 Operaciones lógicas]]
+
+En binario se pueden realizar:
+
+- **Operaciones aritméticas:** las mismas que en decimal (suma, resta, multiplicación, división…).
+- **Operaciones lógicas:** con operadores como NOT, AND, OR… → ver [[1.4.2 Operaciones lógicas\|1.4.2 Operaciones lógicas]].
+
+### 1.4.1 Operaciones aritméticas
+
+#### Suma
+
+| A | B | Z (salida) | C (acarreo) |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+
+**Ejemplo 1** ($79 + 23 = 102$)
+
+```
+   11 111      -> C (acarreo)
+  0100 1111
++ 0001 0111
+-----------
+  0110 0110    -> Z (salida)
+```
+
+**Ejemplo 2** ($108 + 45 = 153$)
+
+```
+  11  11       -> C (acarreo)
+  0110 1100
++ 0010 1101
+-----------
+  1001 1001    -> Z (salida)
+```
+
+#### Resta
+
+En la resta, el "acarreo" es en realidad un **préstamo** (*borrow*) que se resta a la columna siguiente.
+
+| A | B | Z (salida) | C (acarreo/préstamo) |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+
+**Ejemplo 1** ($111 - 23 = 88$)
+
+```
+  0110 1111
+     1         -> C (préstamo)
+- 0001 0111
+-----------
+  0101 1000    -> Z (salida)
+```
+
+**Ejemplo 2** ($108 - 29 = 79$)
+
+```
+  0110 1100
+   11 111      -> C (préstamo)
+- 0001 1101
+-----------
+  0100 1111    -> Z (salida)
+```
+
+> [!tip]
+> En la práctica, el ordenador no resta así: suma el complemento del sustraendo. Ver [[1.4.3 Complementos\|1.4.3 Complementos]].
+
+### 1.4 Operaciones en binario
+
+En binario se pueden realizar:
+
+- **Operaciones aritméticas:** las mismas que en decimal (suma, resta, multiplicación, división…).
+- **Operaciones lógicas:** con operadores como NOT, AND, OR… → ver [[1.4.2 Operaciones lógicas\|1.4.2 Operaciones lógicas]].
+### 1.4.1 Operaciones aritméticas
+
+### Suma
+
+| A | B | Z (salida) | C (acarreo) |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+
+**Ejemplo 1** ($79 + 23 = 102$)
+
+```
+   11 111      -> C (acarreo)
+  0100 1111
++ 0001 0111
+-----------
+  0110 0110    -> Z (salida)
+```
+
+**Ejemplo 2** ($108 + 45 = 153$)
+
+```
+  11  11       -> C (acarreo)
+  0110 1100
++ 0010 1101
+-----------
+  1001 1001    -> Z (salida)
+```
+
+### Resta
+
+En la resta, el "acarreo" es en realidad un **préstamo** (*borrow*) que se resta a la columna siguiente.
+
+| A | B | Z (salida) | C (acarreo/préstamo) |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+
+**Ejemplo 1** ($111 - 23 = 88$)
+
+```
+  0110 1111
+     1         -> C (préstamo)
+- 0001 0111
+-----------
+  0101 1000    -> Z (salida)
+```
+
+**Ejemplo 2** ($108 - 29 = 79$)
+
+```
+  0110 1100
+   11 111      -> C (préstamo)
+- 0001 1101
+-----------
+  0100 1111    -> Z (salida)
+```
+
+> [!tip]
+> En la práctica, el ordenador no resta así: suma el complemento del sustraendo. Ver [[1.4.3 Complementos\|1.4.3 Complementos]].
+## 1.4.2 Operaciones lógicas
+
+← [[1.4.1 Operaciones aritméticas\|1.4.1 Operaciones aritméticas]] · ↑ [[Sistemas de numeración\|Sistemas de numeración]] · → [[1.4.3 Complementos\|1.4.3 Complementos]]
+
+Se basan en el **álgebra de Boole**, llamada así por el matemático inglés George Boole, que sentó las bases de las operaciones lógicas binarias. Los circuitos internos del ordenador contienen **puertas lógicas**: todas las operaciones aritméticas se realizan, en realidad, mediante operaciones lógicas.
+
+### NOT
+
+El resultado es la negación de la entrada.
+
+| A | Y |
+| :-: | :-: |
+| 0 | 1 |
+| 1 | 0 |
+
+### OR
+
+El resultado es 0 solo cuando ambas entradas son 0.
+
+| A | B | Y |
+| :-: | :-: | :-: |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+### AND
+
+El resultado es 1 solo cuando ambas entradas son 1.
+
+| A | B | Y |
+| :-: | :-: | :-: |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+### XOR (OR exclusiva)
+
+$A \text{ XOR } B = (\text{NOT}(A) \text{ AND } B) \text{ OR } (A \text{ AND } \text{NOT}(B))$
+
+El resultado es 0 cuando ambas entradas son iguales y 1 cuando son diferentes.
+
+| A | B | Y |
+| :-: | :-: | :-: |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+### NAND
+
+Negación de la AND: $A \text{ NAND } B = \text{NOT}(A \text{ AND } B)$. El resultado es 0 solo cuando ambas entradas son 1.
+
+| A | B | Y |
+| :-: | :-: | :-: |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+### NOR
+
+Negación de la OR: $A \text{ NOR } B = \text{NOT}(A \text{ OR } B)$. El resultado es 1 solo cuando ambas entradas son 0.
+
+| A | B | Y |
+| :-: | :-: | :-: |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+
+### Ejemplo
+
+> [!example] Enunciado
+> Para los siguientes pares de números binarios, realiza las operaciones AND, OR, NAND, NOR y XOR:
+> - Par 1: `1110 1100` y `0001 1101`
+> - Par 2: `0110 1100` y `0010 1101`
+
+> [!success]- Solución
+>
+> | Operación | Par 1 | Par 2 |
+> | --- | :-: | :-: |
+> | AND | 0000 1100 | 0010 1100 |
+> | OR | 1111 1101 | 0110 1101 |
+> | NAND | 1111 0011 | 1101 0011 |
+> | NOR | 0000 0010 | 1001 0010 |
+> | XOR | 1111 0001 | 0100 0001 |
+## 1.4.3 Complementos
+
+El ordenador utiliza los complementos tanto para **representar números negativos** como para **restar**, porque es más sencillo construir el circuito del complemento y la suma que el de la resta.
+
+Para restar un número a otro, se suma el primero con el complemento del que se quiere restar; el resultado es idéntico al de la resta.
+
+### Complemento a 1 ($C_1$)
+
+Se obtiene cambiando los 0 por 1 **y los 1 por 0**; es decir, aplicando la operación lógica NOT al número. Ambos números deben tener la misma longitud en bits.
+
+> [!example] Ejemplo ($N = 8$ bits)
+> $0000\ 1001_2 \rightarrow C_1 = 1111\ 0110$
+
+### Complemento a 2 ($C_2$)
+
+Resuelve un problema del complemento a 1 al representar negativos: en $C_1$ existen **dos representaciones del 0** ($0000\ 0000$ y $1111\ 1111$).
+
+El complemento a 2 es el complemento a 1 más 1:
+
+$$C_2 = C_1 + 1$$
+
+> [!example] Ejemplo ($N = 8$ bits)
+> $0000\ 1001_2 \rightarrow C_2 = 1111\ 0110 + 1 = 1111\ 0111$
+
+### Resta en complemento a 1
+
+Se convierte el sustraendo a $C_1$ y se suman. Si sobra un bit de acarreo, **se suma al resultado** (*end-around carry*).
+
+> [!example] $0000\ 1000 - 0000\ 0011$ ($8 - 3$)
+> ```
+>   0000 1000
+> + 1111 1100    <- C1 de 0000 0011
+> -----------
+> 1 0000 0100
+>
+>   0000 0100
+> +         1    <- acarreo sobrante
+> -----------
+>   0000 0101    = 5
+> ```
+
+### Resta en complemento a 2
+
+Se convierte el sustraendo a $C_2$ y se suman. Si sobra un bit de acarreo, **se descarta**.
+
+> [!example] $0000\ 1000 - 0000\ 0011$ ($8 - 3$)
+> $C_2(0000\ 0011) = 1111\ 1100 + 1 = 1111\ 1101$
+> ```
+>   0000 1000
+> + 1111 1101
+> -----------
+> 1 0000 0101    -> el 1 se descarta = 0000 0101 = 5
+> ```
+
+## 1.5 Detección de errores
+
+Durante el almacenamiento o la transmisión pueden producirse errores: se almacena un 1 y al leerlo es un 0, o viceversa. Para detectarlos (e incluso corregirlos) se usan distintos métodos.
+
+Todos los métodos de detección **añaden redundancia** al código: bits que no almacenan información, pero sirven para detectar errores.
+
+### 1.5.1 Comprobación de paridad
+
+Consiste en contar cuántos "1" hay almacenados o recibidos y comprobar si esa cantidad es par o impar, según el tipo de paridad usado.
+
+#### 1.5.1.1 Paridad lineal
+
+Detecta si ha cambiado un bit. Para generar el bit de paridad se utiliza la operación XOR. Se añade **un bit** según el criterio adoptado:
+
+- **Par:** el número de bits a 1 (incluido el de paridad) debe ser par.
+  $p = b_1 \text{ XOR } b_2 \text{ XOR } \dots \text{ XOR } b_n$
+- **Impar:** el número de bits a 1 (incluido el de paridad) debe ser impar.
+  $p = \text{NOT}(b_1 \text{ XOR } b_2 \text{ XOR } \dots \text{ XOR } b_n)$
+
+Es un método sencillo, pero solo detecta un número impar de errores (un error simple) y además **no indica qué bit es el erróneo**.
+
+#### 1.5.1.2 Paridad bidimensional
+
+Mejora el sistema anterior: se calcula el bit de paridad tanto para cada **fila** como para cada **columna**. Puede detectar más errores y localizar dónde están.
+
+> [!example] Ejemplo
+> Para almacenar los siguientes bits con paridad bidimensional **par**, ¿qué tendríamos que añadir?
+> ```
+> 0010011
+> 0101111
+> 0001000
+> ```
+
+> [!success]- Solución
+> Se añade un bit de paridad al final de cada fila (columna derecha) y una fila de paridad al final (fila inferior):
+> ```
+> 0010011 1
+> 0101111 1
+> 0001000 1
+> 0110100 1   <- fila de paridad
+> ```
+
+### 1.5.2 Códigos cíclicos (CRC)
+
+Los **CRC** (*Códigos de Redundancia Cíclica*) incorporan como bits de control el resultado de un cálculo basado en la operación módulo (resto de la división entre dos números/polinomios, usando XOR sin acarreos).
+
+La eficiencia depende del **polinomio generador** elegido. Destacan: **CRC-12**, **CRC-16**, **CRC-32**, etc.
+
+Al enviar o almacenar los datos se añaden bits de control (tantos como el grado del polinomio generador) que no aportan información. Frente a la paridad, **detectan más errores**, pero el código es **más redundante**.
+
+> [!example] Ejemplo CRC-3
+> - Datos $D(X)$: `101110`
+> - Polinomio generador $G(X)$: `1001` (grado 3 → se añaden 3 bits)
+>
+> **Generación:** se añaden 3 ceros a los datos y se divide (XOR) entre $G(X)$:
+> ```
+> 101110000 | 1001
+> 1001      | 101011  (cociente)
+> ----
+>  0101
+>  0000
+>  ----
+>   1010
+>   1001
+>   ----
+>    0110
+>    0000
+>    ----
+>     1100
+>     1001
+>     ----
+>      1010
+>      1001
+>      ----
+>       011   <- resto R(X)
+> ```
+> Se transmite: **`101110011`** (datos + resto).
+>
+> **Comprobación:** el receptor divide `101110011` entre `1001`. El resto es `000` → **sin errores**.
