@@ -67,7 +67,7 @@
    ```
 
    > [!note]
-   > Si tu distribución ya no incluye `pam_tally2`, usa su sustituto `pam_faillock` (`deny=4 unlock_time=900`) y el comando `faillock --user juan [--reset]` (conocimiento general, verificar).
+   > Si tu distribución ya no incluye `pam_tally2`, usa su sustituto `pam_faillock` (`deny=4 unlock_time=900`) y el comando `faillock --user juan [--reset]` (actualizado, fuente: [pam_faillock(8) – Linux manual page](https://man7.org/linux/man-pages/man8/pam_faillock.8.html)).
 
 5. **Tiempo de inactividad:** añade a `/etc/profile` `TMOUT=120` y `readonly TMOUT` y comprueba que la sesión se cierra.
 
@@ -94,5 +94,5 @@ Documento con capturas, las líneas de configuración añadidas y una conclusió
 **Criterios de evaluación asociados:** RA2 b) (contraseñas y frases de paso) y c) (acceso por clave pública/certificado en SSH).
 
 > [!quote]- Fuentes
-> - `C11 - S4_07 opciones usuario y pam_tally2`
+> - `C11+-+S4_07+-+opconies+usuario+y+pam_tally2.pdf`
 > - `Bloque 2- Sistemas Control de Acceso.pdf` (apdos. 4.6 y 4.7.2)

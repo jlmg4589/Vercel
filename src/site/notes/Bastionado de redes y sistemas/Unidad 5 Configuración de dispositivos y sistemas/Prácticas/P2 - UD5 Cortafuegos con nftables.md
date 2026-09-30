@@ -60,8 +60,8 @@
    ```
 10. **Análisis de logs**: desde otro equipo lanza conexiones a puertos cerrados (p. ej. 23, 3306). Consulta los mensajes con prefijo `NFT-DROP` en el registro del sistema y los contadores de la regla. Indica qué IP y puertos aparecen y qué comportamiento sugieren.
 
-> [!warning] Falta fuente
-> Las fuentes no incluyen el formato completo de `/etc/nftables.conf` ni la consulta de los mensajes de `log` (orientativamente `journalctl -k` o `/var/log/kern.log`, conocimiento general, verificar).
+> [!info] Contenido complementario (fuente externa)
+> La acción `log` escribe en el registro del núcleo: se consulta con `journalctl -k | grep NFT-DROP` (o en `/var/log/kern.log` si hay rsyslog). El servicio `nftables` carga `/etc/nftables.conf` al arrancar (`sudo systemctl enable nftables`); ese fichero empieza normalmente por `flush ruleset` seguido de las tablas en sintaxis de bloques (actualizado, fuente: [Logging traffic – nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Logging_traffic) y [nftables – Debian Wiki](https://wiki.debian.org/nftables)).
 
 ## ✅ Criterios de evaluación asociados
 

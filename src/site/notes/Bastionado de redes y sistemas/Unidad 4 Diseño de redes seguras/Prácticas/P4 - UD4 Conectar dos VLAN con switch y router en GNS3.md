@@ -37,7 +37,7 @@ Dos aulas de un centro educativo con dos redes virtuales: profesores y alumnos.
 ```bash
 VPCS1> ip 192.168.10.1/24 192.168.10.254
 ```
-(sintaxis VPCS de conocimiento general, verificar)
+(sintaxis `ip <dirección>/<máscara> <puerta de enlace>`; actualizado, fuente: [How to configure VPCS template preferences – GNS3 Docs](https://docs.gns3.com/docs-3.1-en/web-ui/template-preferences-vpcs))
 
 ### 1. Configurar los puertos de los switches de GNS3
 

@@ -66,8 +66,8 @@
     - Identifica peticiones servidas desde caché.
     - Explica qué información guarda cada fichero.
 
-> [!warning] Falta fuente
-> Las fuentes no incluyen la configuración de Squid como **proxy transparente** (redirección en la puerta de enlace con el cortafuegos) ni el significado detallado de los códigos del `access.log`.
+> [!info] Contenido complementario (fuente externa)
+> **Proxy transparente (ampliación):** Squid escucha en un puerto con el modo `intercept` (p. ej. `http_port 3129 intercept`) y la puerta de enlace redirige el tráfico web a ese puerto con una regla `REDIRECT`/`DNAT` del cortafuegos. Ver [Linux traffic Interception using REDIRECT – Squid Wiki](https://wiki.squid-cache.org/ConfigExamples/Intercept/LinuxRedirect) y [directiva http_port](https://www.squid-cache.org/Doc/config/http_port/). El significado de los códigos del `access.log` (TCP_HIT, TCP_MISS, TCP_DENIED…) queda pendiente de fuente.
 
 ## ✅ Criterios de evaluación asociados
 
@@ -75,5 +75,5 @@
 - **RA5 c)** Se han identificado comportamientos no deseados en una red a través del análisis de los registros (*logs*).
 
 > [!quote]- Fuentes
-> - `00-Unidad 3 - Bastionado de redes de area local.pdf` (Servidores proxy, Squid: parámetros, logs, ACL, http_access, ejemplos 1 y 2)
+> - `00-Unidad 3 - Bastionado de redes de area local.odt` (Servidores proxy, Squid: parámetros, logs, ACL, http_access, ejemplos 1 y 2)
 > - `UT 5-Configuración de Dispositivos de SI.pdf` (apdo. 9.2 proxies)

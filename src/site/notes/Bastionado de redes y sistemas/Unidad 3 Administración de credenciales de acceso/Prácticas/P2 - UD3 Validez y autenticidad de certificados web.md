@@ -38,7 +38,7 @@ echo | openssl s_client -connect www.ejemplo.es:443 2>/dev/null | openssl x509 -
 
 ### Paso 4. Comparar certificados inválidos
 
-Visita los subdominios de prueba de <https://badssl.com> (conocimiento general, verificar), por ejemplo `expired`, `wrong.host`, `self-signed`, `untrusted-root` y `revoked`. Completa la tabla:
+Visita los subdominios de prueba de <https://badssl.com> (actualizado, fuente: [badssl.com](https://badssl.com)), por ejemplo `expired`, `wrong.host`, `self-signed`, `untrusted-root` y `revoked`. Completa la tabla:
 
 | Sitio | Mensaje del navegador | Campo o mecanismo que falla | Motivo |
 | :-: | --- | --- | --- |

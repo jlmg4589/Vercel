@@ -100,5 +100,5 @@ Documento con capturas de cada paso y respuesta razonada a las preguntas plantea
 **Criterio de evaluación asociado:** RA2 b) (políticas de autenticación basadas en contraseñas).
 
 > [!quote]- Fuentes
-> - `C11 - S4_01 ficheros usuarios, grupos y claves`, `C11 - S4_02 usuarios, grupos, permisos`, `C11 - S4_06 Seguridad`, `C11 - S4_07 opciones usuario`
+> - `C11+-+S4_01+-+ficheros+usuarios,+grupros+y+claves-1.pdf`, `C11+-+S4_02+-+usuarios,+grupos,+permisos.pdf`, `C11+-+S4_06-Seguridad.pdf`, `C11+-+S4_07+-+opconies+usuario+y+pam_tally2.pdf`
 > - `Bloque 2- Sistemas Control de Acceso.pdf` (apdo. 4.7)

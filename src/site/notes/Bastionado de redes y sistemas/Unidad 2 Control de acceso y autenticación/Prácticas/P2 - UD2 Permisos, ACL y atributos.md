@@ -89,5 +89,5 @@ Documento con capturas y respuestas. Explica qué ventaja aporta la ACL frente a
 **Criterio de evaluación asociado:** RA2 (control de acceso a los recursos; apoya los criterios a y b).
 
 > [!quote]- Fuentes
-> - `C11 - S4_02 usuarios, grupos, permisos`, `C11 - S4_05 ACL y Atributos`, `C11 - S4_06 Seguridad`
+> - `C11+-+S4_02+-+usuarios,+grupos,+permisos.pdf`, `C11+-+S4_05+-+ACL+y+Atributos.pdf`, `C11+-+S4_06-Seguridad.pdf`
 > - `Bloque 2- Sistemas Control de Acceso.pdf` (apdo. 4.4.2)

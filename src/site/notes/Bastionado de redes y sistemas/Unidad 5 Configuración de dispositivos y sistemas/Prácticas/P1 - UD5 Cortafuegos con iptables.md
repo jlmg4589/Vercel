@@ -101,5 +101,5 @@
 - **RA5 d)** Se han implementado contramedidas frente a comportamientos no deseados en una red.
 
 > [!quote]- Fuentes
-> - `00-Unidad 3 - Bastionado de redes de area local.pdf` (Iptables: un ejemplo, enmascaramiento IP, scripts de configuración, iptraf)
+> - `00-Unidad 3 - Bastionado de redes de area local.odt` (Iptables: un ejemplo, enmascaramiento IP, scripts de configuración, iptraf)
 > - `C11+-+S2_01+-+iptables-1.pdf` (opciones y módulos limit y state)

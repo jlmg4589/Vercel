@@ -18,6 +18,9 @@
 
 > [!warning] Realiza la práctica en una **máquina virtual** con Windows 10 Pro/Education (EFS no está disponible en Windows 10 Home).
 
+> [!info] Actualización 2026
+> Windows 10 ya no tiene soporte: se puede usar igualmente **Windows 11 Pro/Education** (mismos pasos). Para una VM con Windows 11 hay que habilitar **TPM 2.0 virtual** y **Secure Boot**, requisitos mínimos del sistema (fuente: [Windows 11 specifications – Microsoft](https://www.microsoft.com/en-us/windows/windows-11-specifications)).
+
 ## 🛠️ Enunciado
 
 ### Parte 1: crear una partición de datos

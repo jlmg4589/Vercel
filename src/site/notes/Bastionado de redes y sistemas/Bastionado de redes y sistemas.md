@@ -24,4 +24,50 @@
 
 ## Prácticas
 
-- *(Pendiente de completar)*
+### Unidad 1 Diseño de planes de securización
+
+- [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Prácticas/P1 - UD1 Configuración de seguridad de Windows y Linux\|P1 - UD1 Configuración de seguridad de Windows y Linux]]
+- [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Prácticas/P2 - UD1 Descripción de una pyme y análisis de riesgos\|P2 - UD1 Descripción de una pyme y análisis de riesgos]]
+- [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Prácticas/P3 - UD1 Clasificación de activos, vulnerabilidades y amenazas\|P3 - UD1 Clasificación de activos, vulnerabilidades y amenazas]]
+- [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Prácticas/P4 - UD1 Plan Director de Seguridad\|P4 - UD1 Plan Director de Seguridad]]
+- [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Prácticas/P5 - UD1 Análisis de riesgos con MicroPILAR\|P5 - UD1 Análisis de riesgos con MicroPILAR]]
+
+### Unidad 2 Control de acceso y autenticación
+
+- [[Bastionado de redes y sistemas/Unidad 2 Control de acceso y autenticación/Prácticas/P1 - UD2 Gestión segura de usuarios, grupos y contraseñas\|P1 - UD2 Gestión segura de usuarios, grupos y contraseñas]]
+- [[Bastionado de redes y sistemas/Unidad 2 Control de acceso y autenticación/Prácticas/P2 - UD2 Permisos, ACL y atributos\|P2 - UD2 Permisos, ACL y atributos]]
+- [[Bastionado de redes y sistemas/Unidad 2 Control de acceso y autenticación/Prácticas/P3 - UD2 Políticas de contraseñas y bloqueo con PAM\|P3 - UD2 Políticas de contraseñas y bloqueo con PAM]]
+
+### Unidad 3 Administración de credenciales de acceso
+
+- [[Bastionado de redes y sistemas/Unidad 3 Administración de credenciales de acceso/Prácticas/P1 - UD3 Acceso a un servidor remoto mediante claves SSH\|P1 - UD3 Acceso a un servidor remoto mediante claves SSH]]
+- [[Bastionado de redes y sistemas/Unidad 3 Administración de credenciales de acceso/Prácticas/P2 - UD3 Validez y autenticidad de certificados web\|P2 - UD3 Validez y autenticidad de certificados web]]
+- [[Bastionado de redes y sistemas/Unidad 3 Administración de credenciales de acceso/Prácticas/P3 - UD3 Servidor RADIUS con FreeRADIUS\|P3 - UD3 Servidor RADIUS con FreeRADIUS]]
+
+### Unidad 4 Diseño de redes seguras
+
+- [[Bastionado de redes y sistemas/Unidad 4 Diseño de redes seguras/Prácticas/P1 - UD4 Instalación y configuración de GNS3\|P1 - UD4 Instalación y configuración de GNS3]]
+- [[Bastionado de redes y sistemas/Unidad 4 Diseño de redes seguras/Prácticas/P2 - UD4 Configuración básica de routers Cisco en GNS3\|P2 - UD4 Configuración básica de routers Cisco en GNS3]]
+- [[Bastionado de redes y sistemas/Unidad 4 Diseño de redes seguras/Prácticas/P3 - UD4 Simulación de un switch Cisco con VLAN, trunk y VTP\|P3 - UD4 Simulación de un switch Cisco con VLAN, trunk y VTP]]
+- [[Bastionado de redes y sistemas/Unidad 4 Diseño de redes seguras/Prácticas/P4 - UD4 Conectar dos VLAN con switch y router en GNS3\|P4 - UD4 Conectar dos VLAN con switch y router en GNS3]]
+- [[Bastionado de redes y sistemas/Unidad 4 Diseño de redes seguras/Prácticas/P5 - UD4 Enrutamiento entre VLAN\|P5 - UD4 Enrutamiento entre VLAN]]
+
+### Unidad 5 Configuración de dispositivos y sistemas
+
+- [[Bastionado de redes y sistemas/Unidad 5 Configuración de dispositivos y sistemas/Prácticas/P1 - UD5 Cortafuegos con iptables\|P1 - UD5 Cortafuegos con iptables]]
+- [[Bastionado de redes y sistemas/Unidad 5 Configuración de dispositivos y sistemas/Prácticas/P2 - UD5 Cortafuegos con nftables\|P2 - UD5 Cortafuegos con nftables]]
+- [[Bastionado de redes y sistemas/Unidad 5 Configuración de dispositivos y sistemas/Prácticas/P3 - UD5 Detección de intrusiones con Snort\|P3 - UD5 Detección de intrusiones con Snort]]
+- [[Bastionado de redes y sistemas/Unidad 5 Configuración de dispositivos y sistemas/Prácticas/P4 - UD5 Proxy caché con Squid\|P4 - UD5 Proxy caché con Squid]]
+
+### Unidad 6 Configuración de dispositivos para la instalación
+
+- [[Bastionado de redes y sistemas/Unidad 6 Configuración de dispositivos para la instalación/Prácticas/P1 - UD6 Particionado y cifrado de ficheros en Windows\|P1 - UD6 Particionado y cifrado de ficheros en Windows]]
+
+### Unidad 7 Configuración de sistemas informáticos
+
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P1 - UD7 Gestión de servicios con systemd y TCP Wrappers\|P1 - UD7 Gestión de servicios con systemd y TCP Wrappers]]
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P2 - UD7 Securización del servidor SSH\|P2 - UD7 Securización del servidor SSH]]
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P3 - UD7 Instalación y configuración de OSSEC\|P3 - UD7 Instalación y configuración de OSSEC]]
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P4 - UD7 Confinamiento de procesos con AppArmor y SELinux\|P4 - UD7 Confinamiento de procesos con AppArmor y SELinux]]
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P5 - UD7 Análisis de rootkits y auditoría con Lynis\|P5 - UD7 Análisis de rootkits y auditoría con Lynis]]
+- [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P6 - UD7 Copias de seguridad\|P6 - UD7 Copias de seguridad]]

@@ -10,6 +10,12 @@
 > - Escribir reglas propias y comprobar que generan alertas.
 > - Enviar las alertas a un gestor de eventos (Barnyard2 + Snorby).
 
+> [!info] Actualización 2026
+> Esta práctica sigue la guía de INCIBE, basada en **Snort 2** (`snort.conf`, DAQ 2, Barnyard2 y Snorby). Se conserva por su valor didáctico, pero conviene saber que:
+> - La versión actual es **Snort 3** (configuración `snort.lua`, multihilo, reglas Talos en el paquete LightSPD). Talos ha retirado el soporte de reglas de casi todas las versiones de Snort 2; solo mantiene la **2.9.20** (actualizado, fuente: [End of Life Announcement for versions of Snort 2 AND Snort 3 – Snort Blog](https://blog.snort.org/2026/01/end-of-life-announcement-for-versions.html)).
+> - **Barnyard2** está archivado desde enero de 2024 y **Snorby** está abandonado: la Parte 4 solo funciona en entornos antiguos (actualizado, fuente: [firnsy/barnyard2 – GitHub](https://github.com/firnsy/barnyard2)). Hoy se usan las salidas `alert_json`/`alert_csv` de Snort 3 hacia un SIEM, o plataformas como [Security Onion 2.4](https://docs.securityonion.net/en/2.4/introduction.html) (con Suricata).
+> - Las reglas de la Parte 2 son válidas en ambas versiones. Equivalente en Snort 3 del paso 5: `sudo snort -c /usr/local/etc/snort/snort.lua -R local.rules -i eth0 -A alert_fast` (ver [Using Snort – Snort 3 Rule Writing Guide](https://docs.snort.org/start/running)).
+
 ## 📐 Recordatorio Teórico
 
 - Tipos de IDS/IPS, ubicación y funcionamiento: [[Bastionado de redes y sistemas/Unidad 5 Configuración de dispositivos y sistemas/Apuntes/13. Herramientas de monitorización IDS e IPS\|13. Herramientas de monitorización IDS e IPS]].
@@ -44,7 +50,7 @@
    - Alertar de cualquier `ping` (ICMP) hacia `$HOME_NET`.
    - Alertar de intentos de conexión a Telnet (23) desde `$EXTERNAL_NET`.
    - Alertar si en una petición HTTP aparece la cadena `union select` sin distinguir mayúsculas (opción `nocase`).
-5. Ejecuta Snort en modo IDS mostrando alertas por consola (orientativo, conocimiento general, verificar):
+5. Ejecuta Snort en modo IDS mostrando alertas por consola (sintaxis de Snort 2; para Snort 3 ver la actualización inicial):
    ```bash
    sudo snort -A console -q -c /etc/snort/snort.conf -i eth0
    ```

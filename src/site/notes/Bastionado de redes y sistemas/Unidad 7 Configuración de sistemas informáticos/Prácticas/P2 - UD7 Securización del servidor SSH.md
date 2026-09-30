@@ -33,6 +33,9 @@ Entorno: servidor Debian/Ubuntu con `openssh-server` y un cliente Linux.
    ssh usuario@ip_servidor        # debe entrar sin contraseña de usuario
    ```
 
+   > [!info] Actualización 2026
+   > Con OpenSSH actual se recomienda `ssh-keygen -t ed25519` (tipo por defecto desde OpenSSH 9.5) y no hace falta la directiva `Protocol 2` (SSH-1 eliminado en OpenSSH 7.6). Fuentes: [OpenSSH 9.5](https://www.openssh.com/txt/release-9.5), [OpenSSH 7.6](https://www.openssh.com/txt/release-7.6).
+
 3. Comprueba los puertos en uso y elige uno libre (p. ej. 5022):
 
    ```bash
