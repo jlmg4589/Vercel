@@ -18,8 +18,8 @@
 
 **Escenario de la fuente:** un portátil se conecta a la wifi de un punto de acceso (NAS), que envía las credenciales al servidor RADIUS; si son válidas, el punto de acceso entrega la configuración IP por DHCP.
 
-> [!warning] Falta fuente: tutorial paso a paso de FreeRADIUS
-> Las fuentes solo remiten a enlaces y vídeos ("FreeRadius: WiFi más seguro", instalación en Linux y en Windows Server 2012). Los comandos siguientes son orientativos (conocimiento general, verificar) y deben ajustarse a la distribución.
+> [!info] Contenido complementario (fuente externa)
+> Las fuentes del curso solo remiten a enlaces y vídeos ("FreeRadius: WiFi más seguro", instalación en Linux y en Windows Server 2012). Los pasos siguientes siguen la guía oficial de FreeRADIUS v3: prueba en modo depuración (`-X`), usuario en `mods-config/files/authorize`, `radtest` y alta de clientes en `clients.conf`. En Debian/Ubuntu el demonio se llama `freeradius` y la configuración está en `/etc/freeradius/3.0/` (en otras distribuciones, `radiusd` y `/etc/raddb/`) (actualizado, fuente: [FreeRADIUS Wiki – Getting Started](https://wiki.freeradius.org/guide/Getting-Started)).
 
 ## 🛠️ Enunciado
 

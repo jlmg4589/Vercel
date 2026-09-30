@@ -29,7 +29,10 @@
 
 Analiza el mismo dominio en <https://www.ssllabs.com/ssltest/index.html> y anota la calificación, las versiones de TLS admitidas y los avisos.
 
-### Paso 3. Inspección desde la línea de comandos (conocimiento general, verificar)
+### Paso 3. Inspección desde la línea de comandos
+
+> [!info] Contenido complementario (fuente externa)
+> Fuente: [OpenSSL – openssl-s_client](https://docs.openssl.org/3.0/man1/openssl-s_client/).
 
 ```bash
 openssl s_client -connect www.ejemplo.es:443 -servername www.ejemplo.es -showcerts </dev/null
