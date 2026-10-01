@@ -71,3 +71,7 @@
 - [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P4 - UD7 Confinamiento de procesos con AppArmor y SELinux\|P4 - UD7 Confinamiento de procesos con AppArmor y SELinux]]
 - [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P5 - UD7 Análisis de rootkits y auditoría con Lynis\|P5 - UD7 Análisis de rootkits y auditoría con Lynis]]
 - [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P6 - UD7 Copias de seguridad\|P6 - UD7 Copias de seguridad]]
+
+## Anexos
+
+- [[Bastionado de redes y sistemas/Anexos/Anexo I - Scripting en Bash para el bastionado\|Anexo I - Scripting en Bash para el bastionado]]

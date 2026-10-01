@@ -14,9 +14,11 @@
 ---
 ## Asignaturas
 
-| Asignatura            | Nota de inicio            |
-| --------------------- | ------------------------- |
-| Sistemas Informáticos | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]] |
+| Asignatura                     | Nota de inicio                     |
+| ------------------------------ | ---------------------------------- |
+| Bastionado de Redes y Sistemas | [[Bastionado de redes y sistemas/Bastionado de redes y sistemas\|Bastionado de redes y sistemas]] |
+| Sistemas Informáticos          | [[Sistemas Informáticos/Sistemas Informáticos\|Sistemas Informáticos]]<br>      |
+
 
 ---
 
