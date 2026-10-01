@@ -209,7 +209,7 @@ cmd1 || cmd2   # cmd2 solo si cmd1 falla
 
 Se usan con `test`, `[ ]` o `[[ ]]`. `test 1 -lt 2` equivale a `[ 1 -lt 2 ]`. **Los espacios tras `[` y antes de `]` son obligatorios** porque `[` es un comando.
 
-`[[ ]]` es propio de Bash y más seguro: no trocea variables sin comillas y admite `&&`, `||`, comodines y expresiones regulares (`=~`). En *scripts* Bash se recomienda `[[ ]]`.
+En *scripts* Bash se recomienda `[[ ]]`: es propio de Bash y más seguro, porque no trocea las variables sin comillas y admite comodines, expresiones regulares (`=~`) y los operadores lógicos `&&` y `||`.
 
 ### 4.1 Números
 
@@ -587,7 +587,7 @@ set -euo pipefail
 readonly BASE=/var/lib/fim/base.sha256
 readonly RUTAS=(/etc/passwd /etc/shadow /etc/sudoers /etc/ssh/sshd_config)
 mkdir -p "$(dirname "$BASE")"
-if [[ ${1:-} == "--init" || ! -f $BASE ]]; then
+if [ "${1:-}" = "--init" ] || [ ! -f "$BASE" ]; then
     sha256sum "${RUTAS[@]}" > "$BASE"; chmod 600 "$BASE"
     echo "Línea base creada"; exit 0
 fi
