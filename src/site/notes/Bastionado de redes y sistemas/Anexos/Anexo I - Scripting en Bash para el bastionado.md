@@ -34,7 +34,7 @@ echo "$variable1"      # HOLA
 
 ```bash
 fecha=$(date +%F)           # forma recomendada (anidable y legible)
-kernel=`uname -r`           # forma antigua con acentos graves: evitar
+kernel=`uname -r`           # forma antigua: evitar
 echo "Copia del $fecha en kernel $kernel"
 ```
 
@@ -87,18 +87,18 @@ Por convención se escriben en **mayúsculas** para distinguirlas de las del usu
 > [!danger] Seguridad: `RANDOM` y `PATH`
 > - `$RANDOM` **no es criptográficamente seguro**: no lo uses para contraseñas, *tokens* ni claves. Usa `openssl rand -base64 24` o `head -c 32 /dev/urandom | base64`.
 > - Nunca incluyas `.` ni directorios escribibles por otros en el `PATH` de root: un atacante podría dejar un `ls` malicioso (secuestro de `PATH`). En *scripts* privilegiados fija el `PATH` al principio o usa rutas absolutas.
-> - El historial puede guardar contraseñas tecleadas en la línea de órdenes. `HISTCONTROL=ignorespace` evita guardar las órdenes que empiezan por espacio.
+><!-- - El historial puede guardar contraseñas tecleadas en la línea de órdenes. `HISTCONTROL=ignorespace` evita guardar las órdenes que empiezan por espacio.-->
 
 ## 2. Comandos básicos para variables y E/S
 
-| Comando | Uso |
-|---|---|
-| `unset var` | Elimina la variable (después se expande a vacío) |
-| `set` | Muestra **todas** las variables (locales y de entorno) y funciones; también activa opciones del shell (`set -euo pipefail`) |
-| `env` / `printenv` | Muestra solo las variables de **entorno** |
-| `export VAR=valor` | Crea/exporta una variable de entorno |
-| `readonly VAR=valor` | Constante: no se puede modificar ni borrar |
-| `declare -i n` / `declare -a v` / `declare -A m` | Entero / *array* indexado / *array* asociativo |
+| Comando                                          | Uso                                                                                                                         |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| `unset var`                                      | Elimina la variable (después se expande a vacío)                                                                            |
+| `set`                                            | Muestra **todas** las variables (locales y de entorno) y funciones; también activa opciones del shell (`set -euo pipefail`) |
+| `env` / `printenv`                               | Muestra solo las variables de **entorno**                                                                                   |
+| `export VAR=valor`                               | Crea/exporta una variable de entorno                                                                                        |
+| `readonly VAR=valor`                             | Constante: no se puede modificar ni borrar                                                                                  |
+| `declare -i n` / `declare -a v` / `declare -A m` | Entero / *array* indexado / *array* asociativo                                                                              |
 
 ### 2.1 `echo` y `printf`
 
@@ -114,14 +114,14 @@ printf "%-10s %5d\n" "usuario" 1001 # formato preciso y portable
 
 Lee un valor de la entrada estándar y lo asigna a una variable. Sintaxis: `read [opciones] variable`.
 
-| Opción | Efecto |
-|---|---|
-| `-p "texto"` | Muestra un mensaje antes de leer |
-| `-s` | Entrada silenciosa (contraseñas) |
-| `-t N` | Tiempo máximo de espera de N segundos |
-| `-r` | No interpreta `\` como escape (**úsala siempre**) |
-| `-n N` | Lee solo N caracteres |
-| `-a arr` | Guarda las palabras en un *array* |
+| Opción       | Efecto                                             |
+| ------------ | -------------------------------------------------- |
+| `-p "texto"` | Muestra un mensaje antes de leer                   |
+| `-s`         | Entrada silenciosa (contraseñas)                   |
+| `-t N`       | Tiempo máximo de espera de N segundos              |
+| `-r`         | No interpreta `\` como escape (**uso aconsejado**) |
+| `-n N`       | Lee solo N caracteres                              |
+| `-a arr`     | Guarda las palabras en un *array*                  |
 
 ```bash
 read -rp "Usuario: " usuario
@@ -177,17 +177,17 @@ También puede ejecutarse sin permiso de ejecución con `bash hola.sh`.
 
 ### 3.4 Variables especiales
 
-| Variable | Función |
-|---|---|
-| `$0` | Nombre (ruta) del *script* |
-| `$1` … `$9`, `${10}` | Parámetros posicionales |
-| `$#` | Número de parámetros |
-| `"$@"` | Todos los parámetros, **cada uno como palabra separada** (la forma correcta de reenviarlos) |
-| `"$*"` | Todos los parámetros en **una sola cadena** |
-| `$?` | Código de salida del último comando (0 = éxito, ≠0 = error) |
-| `$$` | PID del shell que ejecuta el *script* |
-| `$!` | PID del último proceso lanzado en segundo plano |
-| `shift` | Desplaza los parámetros: `$2` pasa a ser `$1`… |
+| Variable             | Función                                                                                     |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| `$0`                 | Nombre (ruta) del *script*                                                                  |
+| `$1` … `$9`, `${10}` | Parámetros posicionales                                                                     |
+| `$#`                 | Número de parámetros                                                                        |
+| `"$@"`               | Todos los parámetros, **cada uno como palabra separada** (la forma correcta de reenviarlos) |
+| `"$*"`               | Todos los parámetros en **una sola cadena**                                                 |
+| `$?`                 | Código de salida del último comando (0 = éxito, ≠0 = error)                                 |
+| `$$`                 | PID del shell que ejecuta el *script*                                                       |
+| `$!`                 | PID del último proceso lanzado en segundo plano                                             |
+| `shift`              | Desplaza los parámetros: `$2` pasa a ser `$1`…                                              |
 
 ```bash
 #!/usr/bin/env bash
@@ -223,14 +223,14 @@ En aritmética también puede usarse `(( a > b ))`.
 
 ### 4.2 Cadenas
 
-| Expresión | Verdadera si… |
-|---|---|
-| `"$a" = "$b"` (o `==` en `[[ ]]`) | son iguales |
-| `"$a" != "$b"` | son distintas |
-| `-z "$a"` | la cadena está vacía |
-| `-n "$a"` | la cadena no está vacía |
-| `[[ $a =~ ^[0-9]+$ ]]` | cumple la expresión regular |
-| `[[ $a == *.log ]]` | encaja con el patrón |
+| Expresión                         | Verdadera si…               |
+| --------------------------------- | --------------------------- |
+| `"$a" = "$b"` (o `==` en `[[ ]]`) | son iguales                 |
+| `"$a" != "$b"`                    | son distintas               |
+| `-z "$a"`                         | la cadena está vacía        |
+| `-n "$a"`                         | la cadena no está vacía     |
+| `[[ $a =~ ^[0-9]+$ ]]`            | cumple la expresión regular |
+| `[[ $a == *.log ]]`               | encaja con el patrón        |
 
 ### 4.3 Ficheros y directorios
 
@@ -250,10 +250,10 @@ En aritmética también puede usarse `(( a > b ))`.
 ### 4.4 Operadores lógicos
 
 | Dentro de `[ ]` | Dentro de `[[ ]]` / entre comandos | Significado |
-|---|---|---|
-| `!` | `!` | negación |
-| `-a` (obsoleto) | `&&` | Y |
-| `-o` (obsoleto) | `\|\|` | O |
+| --------------- | ---------------------------------- | ----------- |
+| `!`             | `!`                                | negación    |
+| `-a` (obsoleto) | `&&`                               | Y           |
+| `-o` (obsoleto) | `\|\|`                             | O           |
 
 ```bash
 [[ -f "$f" && -r "$f" ]] && echo "Fichero legible"
