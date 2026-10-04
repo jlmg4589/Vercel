@@ -115,3 +115,48 @@
     font-size: 90% !important;
   }
 }
+
+
+
+/* =====================================================================
+   BOTÓN DE DESCARGA DEL TEMA EN PDF  ( > [!download] … )
+   Pegar al final de src/site/styles/custom-style.scss
+   ===================================================================== */
+.callout[data-callout="download"] {
+  --callout-color: 46, 125, 50;              /* verde */
+  display: inline-block;
+  padding: 0 !important;
+  margin: 0.5em 0 1.2em;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+
+  .callout-title {
+    display: none;                            /* solo se ve el botón */
+  }
+  .callout-content {
+    padding: 0 !important;
+    overflow: visible !important;
+    p { margin: 0; }
+  }
+  a {
+    display: inline-block;
+    padding: 0.55em 1.2em;
+    border-radius: 8px;
+    background: rgb(var(--callout-color));
+    color: #fff !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: filter 0.15s, transform 0.15s;
+  }
+  a:hover {
+    filter: brightness(1.12);
+    transform: translateY(-1px);
+  }
+}
+
+/* Al imprimir la página no tiene sentido el botón */
+@media print {
+  .callout[data-callout="download"] { display: none !important; }
+}
