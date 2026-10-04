@@ -15,3 +15,103 @@
 .callout {
   background-color: rgba(var(--callout-color), 0.1) !important;
 }
+
+
+/* =====================================================================
+   VERSIÓN IMPRIMIBLE (Imprimir / Guardar como PDF desde el navegador)
+   ===================================================================== */
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm 20mm 16mm;
+  }
+
+  /* Fondo blanco y texto negro */
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Ocultar navegación y elementos interactivos */
+  .navbar,
+  .filetree-wrapper,
+  .filetree-sidebar,
+  .sidebar,
+  .sidebar-container,
+  .search-container,
+  .fullpage-overlay,
+  .floating-actions,
+  .page-panel-toggle,
+  .page-panel-fab,
+  .page-panel-backdrop,
+  .page-panel-handle,
+  .navigation-hint,
+  footer {
+    display: none !important;
+  }
+
+  /* La nota ocupa todo el ancho de la página */
+  .content,
+  main.content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  /* No dejar títulos huérfanos al final de una página */
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* No partir tablas, bloques de código, imágenes ni callouts pequeños */
+  table, pre, img, figure, mjx-container[display="true"] {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .callout {
+    break-inside: avoid-page;
+    background-color: transparent !important;
+    border: 1px solid rgba(var(--callout-color), 0.6) !important;
+  }
+
+  /* Callouts plegados (soluciones): se imprimen desplegados */
+  .callout.is-collapsed .callout-content {
+    display: block !important;
+  }
+  .callout-fold {
+    display: none !important;
+  }
+  .callout-content {
+    overflow: visible !important;
+  }
+
+  /* Código: que no se salga del margen */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word;
+  }
+
+  /* Tablas legibles en papel */
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #999 !important;
+  }
+
+  /* Enlaces como texto normal */
+  a, .internal-link {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Fórmulas: algo más pequeñas para que no se salgan del margen */
+  mjx-container {
+    font-size: 90% !important;
+  }
+}
