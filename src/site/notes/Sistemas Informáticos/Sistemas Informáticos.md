@@ -22,6 +22,7 @@ Módulo de **160 horas** (130 en el centro y 30 en alternancia), 5 horas/semana.
 - [[Sistemas Informáticos/00_General/Mapa de RA y criterios\|Mapa de RA y criterios]]
 - [[Sistemas Informáticos/00_General/Evaluación del módulo\|Evaluación del módulo]]
 - [[Sistemas Informáticos/00_General/Proyecto anual Game Over\|Proyecto anual Game Over]]
+- [[Sistemas Informáticos/00_General/Descargas en PDF\|Descargas en PDF]]
 
 ## Ejercicios de repaso
 
