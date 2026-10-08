@@ -11,6 +11,7 @@
 
 ### 1ª evaluación
 
+- Unidad 0: [[Bastionado de redes y sistemas/Unidad 0 Introducción al bastionado/Apuntes/1. Introducción al bastionado\|Unidad 0: Introducción al bastionado]] (introductoria)
 - Unidad 1: [[Bastionado de redes y sistemas/Unidad 1 Diseño de planes de securización/Apuntes/1. RA1 y criterios de evaluación\|Unidad 1: Diseño de planes de securización]] (RA1)
 - Unidad 2: [[Bastionado de redes y sistemas/Unidad 2 Control de acceso y autenticación/Apuntes/1. RA2 y criterios de evaluación\|Unidad 2: Configuración de sistemas de control de acceso y autenticación de personas]] (RA2)
 - Unidad 3: [[Bastionado de redes y sistemas/Unidad 3 Administración de credenciales de acceso/Apuntes/1. RA3 y criterios de evaluación\|Unidad 3: Administración de credenciales de acceso a sistemas informáticos]] (RA3)
@@ -23,6 +24,10 @@
 - Unidad 7: [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Apuntes/1. RA7 y criterios de evaluación\|Unidad 7: Configuración de sistemas informáticos]] (RA7)
 
 ## Prácticas
+
+### Unidad 0 Introducción al bastionado
+
+- [[Bastionado de redes y sistemas/Unidad 0 Introducción al bastionado/Prácticas/T1 - UD0 Investigación sobre el modelo Zero Trust\|T1 - UD0 Investigación sobre el modelo Zero Trust]]
 
 ### Unidad 1 Diseño de planes de securización
 
