@@ -12,6 +12,12 @@
 >
 > Los ejercicios van de **menor a mayor dificultad** dentro de cada bloque. Las soluciones están plegadas: intenta resolver cada bloque antes de desplegarlas.
 
+> [!abstract] Resultado de aprendizaje y criterios
+> Práctica de la unidad **introductoria** (sin criterios propios). Da soporte al **RA1**: *Evalúa sistemas informáticos identificando sus componentes y características*:
+> - **CE1A** (componentes físicos): bits, BCD, complementos e IEEE 754 (bloques 2, 3, 5 y 7).
+> - **CE1B** (memorias y sus prestaciones): unidades de almacenamiento y capacidad (bloques 1.6 y 7.2–7.3).
+> - **CE1E** (redes y sistemas de comunicación): paridad y CRC (bloque 6).
+
 > [!tip] Cómo usar esta relación
 > - En el examen se puede usar **calculadora**, pero practica también **a mano**: muchas preguntas piden el procedimiento (complementos, BCD, IEEE 754, CRC) y la calculadora no lo hace por ti.
 > - Trabaja siempre con el **número de bits** que indique el enunciado (8 bits salvo que se diga otra cosa) y conserva los ceros a la izquierda.

@@ -577,7 +577,7 @@ find "$DESTINO" -name 'etc_*.tar.gz*' -mtime +"$RETENCION" -delete
 logger -t backup "Copia correcta: $fichero"
 ```
 
-Relación: [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P6 - UD7 Copias de seguridad\|P6 - UD7 Copias de seguridad]], [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Apuntes/8. Sistemas de copias de seguridad\|8. Sistemas de copias de seguridad]].
+Relación: [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Prácticas/P6 - UD7 Copias de seguridad\|P6 - UD7 Copias de seguridad]], [[Bastionado de redes y sistemas/Unidad 7 Configuración de sistemas informáticos/Apuntes/8. Sistemas de copias de seguridad\|UD7-8. Sistemas de copias de seguridad]].
 
 ### 8.6 Control de integridad de ficheros (mini-FIM)
 
