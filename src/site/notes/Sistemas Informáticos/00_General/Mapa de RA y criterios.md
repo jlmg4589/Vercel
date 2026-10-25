@@ -9,31 +9,31 @@
 
 ## Peso de cada RA y reparto por UD
 
-| RA | Resultado de aprendizaje | Peso en el módulo | UD (% del RA) |
-| :-: | --- | :-: | --- |
-| RA1 | Evalúa sistemas informáticos, identificando sus componentes y características. | 15 % | UD1 (70 %), UD5 (30 %) |
-| RA2 | Instala sistemas operativos planificando el proceso e interpretando documentación técnica. | 15 % | UD1 (10 %), UD2 (90 %) |
-| RA3 | Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos. | 15 % | UD3 |
-| RA4 | Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema. | 15 % | UD4 |
-| RA5 | Interconecta sistemas en red configurando dispositivos y protocolos. | 15 % | UD5 |
-| RA6 | Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes. | 15 % | UD6 |
-| RA7 | Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. | 10 % | UD7 |
+| RA  | Resultado de aprendizaje                                                                                                                          | Peso en el módulo | UD (% del RA)          |
+| :-: | ------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: | ---------------------- |
+| RA1 | Evalúa sistemas informáticos, identificando sus componentes y características.                                                                    |       15 %        | UD1 (73 %), UD5 (27 %) |
+| RA2 | Instala sistemas operativos planificando el proceso e interpretando documentación técnica.                                                        |       15 %        | UD1 (10 %), UD2 (90 %) |
+| RA3 | Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos. |       15 %        | UD3                    |
+| RA4 | Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema.                                 |       15 %        | UD4                    |
+| RA5 | Interconecta sistemas en red configurando dispositivos y protocolos.                                                                              |       15 %        | UD5                    |
+| RA6 | Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.                                         |       15 %        | UD6                    |
+| RA7 | Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general.                                                      |       10 %        | UD7                    |
 
 > [!info] Se trabaja en alternancia (FP dual)
 > CE1A, CE1B, CE1C, CE1D, CE1E, CE1F y CE1G.
 
 ## RA1 · Evalúa sistemas informáticos (15 %)
 
-| CE | Criterio | Ponderación | UD |
-| :-: | --- | :-: | :-: |
-| CE1A | Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión. | 20 % | UD1 |
-| CE1B | Se han clasificado los tipos de memorias, señalando sus características e identificando sus prestaciones y la función que desarrollan en el conjunto del sistema. | 15 % | UD1 |
-| CE1C | Se ha verificado el proceso de puesta en marcha de un equipo. | 15 % | UD1 |
-| CE1D | Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos. | 10 % | UD1 |
-| CE1E | Se han identificado los tipos de redes y sistemas de comunicación. | 10 % | UD5 |
-| CE1F | Se han identificado los componentes de una red informática. | 10 % | UD5 |
-| CE1G | Se han interpretado mapas físicos y lógicos de una red informática. | 10 % | UD5 |
-| CE1H | Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos. | 10 % | UD1 |
+|  CE  | Criterio                                                                                                                                                          | Ponderación |              UD               |
+| :--: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------------------------: |
+| CE1A | Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.                                                            |    20 %     |              UD1              |
+| CE1B | Se han clasificado los tipos de memorias, señalando sus características e identificando sus prestaciones y la función que desarrollan en el conjunto del sistema. |    15 %     |              UD1              |
+| CE1C | Se ha verificado el proceso de puesta en marcha de un equipo.                                                                                                     |    15 %     |              UD1              |
+| CE1D | Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.                                                                         |    10 %     |              UD1              |
+| CE1E | Se han identificado los tipos de redes y sistemas de comunicación.                                                                                                |    10 %     | UD0,UD5 (30%-70% sobre el CE) |
+| CE1F | Se han identificado los componentes de una red informática.                                                                                                       |    10 %     |              UD5              |
+| CE1G | Se han interpretado mapas físicos y lógicos de una red informática.                                                                                               |    10 %     |              UD5              |
+| CE1H | Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos.                                               |    10 %     |              UD1              |
 
 ## RA2 · Instala sistemas operativos (15 %)
 
